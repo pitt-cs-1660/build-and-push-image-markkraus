@@ -19,8 +19,8 @@ jobs:
         id: auth
         name: Authenticate to GCP
         with:
-          project_id: 'ci-cd-pipeline-markkraus' # update with your project ID
-          workload_identity_provider: 'projects/892886010280/locations/global/workloadIdentityPools/github/providers/my-repo' # update with your Workload Identity Pool
+          project_id: 'ci-cd-pipeline-markkraus'
+          workload_identity_provider: 'projects/892886010280/locations/global/workloadIdentityPools/github/providers/github-provider' # update with your Workload Identity Pool
 
       # Configure Docker to authenticate with GCP
       - name: gcloud Configure Docker
