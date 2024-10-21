@@ -11,38 +11,32 @@ jobs:
       contents: 'read'
       id-token: 'write'
     steps:
-      # checkout code
+      # Checkout code
       - uses: actions/checkout@v4
 
-      # authenticate with GCP with workload identity provider
-#      - uses: 'google-github-actions/auth@v2'
-#        id: auth
-#        name: Authenticate to GCP
-#        with:
-#          project_id: 'ci-cd-pipeline-markkraus' # update with your project ID
-#          workload_identity_provider: 'projects/892886010280/locations/global/workloadIdentityPools/github2/providers/my-repo' # update with your Workload Identity Pool
+      # Authenticate with GCP with workload identity provider
+      - uses: 'google-github-actions/auth@v2'
+        id: auth
+        name: Authenticate to GCP
+        with:
+          project_id: 'ci-cd-pipeline-markkraus' # update with your project ID
+          workload_identity_provider: 'projects/892886010280/locations/global/workloadIdentityPools/github/providers/my-repo' # update with your Workload Identity Pool
 
-      # configure/login with docker
-#      - name: gcloud Configure Docker
-#        run: gcloud auth configure-docker us-east1-docker.pkg.dev
+      # Configure Docker to authenticate with GCP
+      - name: gcloud Configure Docker
+        run: gcloud auth configure-docker us-east1-docker.pkg.dev
 
-      # setup docker buildx
-#      - name: Setup docker buildx
-#        uses: docker/setup-buildx-action@v3
-#        with:
-#          platforms: linux/amd64,linux/arm64
+      # Setup docker buildx
+      - name: Setup docker buildx
+        uses: docker/setup-buildx-action@v3
+        with:
+          platforms: linux/amd64,linux/arm64
 
-#      - name: Build and Push
-#        uses: docker/build-push-action@v6
-#        with:
-#          context: ./
-#          file: ./Dockerfile
-#          push: true
-#          tags: us-east1-docker.pkg.dev/ci-cd-pipeline-markkraus/build-and-push-image-markkraus/my-image:latest
-
-# @note: you can use regular docker commands instead of the shared action
-#      - name: Build and Push Without Buildx
-#        run: |
-#          docker build -t [GCP REGION].pkg.dev/[PROJECT ID]/[REPO NAME]/[IMAGE NAME]:[TAG] .
-#          docker push [GCP REGION].pkg.dev/[PROJECT ID]/[REPO NAME]/[IMAGE NAME]:[TAG]
-#          --> us-central1.pkg.dev/cc-fall2024/dansc0de/node-demo:v1 <--
+      # Build and Push Docker Image
+      - name: Build and Push
+        uses: docker/build-push-action@v6
+        with:
+          context: ./
+          file: ./Dockerfile
+          push: true
+          tags: us-east1-docker.pkg.dev/ci-cd-pipeline-markkraus/build-and-push-image-markkraus/my-image:latest
