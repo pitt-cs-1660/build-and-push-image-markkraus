@@ -23,6 +23,7 @@ jobs:
           workload_identity_provider: 'projects/892886010280/locations/global/workloadIdentityPools/github/providers/my-new-repo'
           service_account: 'my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com'
 
+
       # Configure Docker to authenticate with GCP
       - name: gcloud Configure Docker
         run: gcloud auth configure-docker us-east1-docker.pkg.dev
