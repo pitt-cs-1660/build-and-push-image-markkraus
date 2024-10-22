@@ -28,17 +28,8 @@ jobs:
       - name: gcloud Configure Docker
         run: gcloud auth configure-docker us-east1-docker.pkg.dev
 
-      # Setup docker buildx
-      - name: Setup docker buildx
-        uses: docker/setup-buildx-action@v3
-        with:
-          platforms: linux/amd64,linux/arm64
-
-      # Build and Push Docker Image
-      - name: Build and Push
-        uses: docker/build-push-action@v6
-        with:
-          context: ./
-          file: ./Dockerfile
-          push: true
-          tags: us-east1-docker.pkg.dev/ci-cd-pipeline-markkraus/build-and-push-image-markkraus/my-image:latest
+      # Build and Push Docker Image using regular Docker commands
+      - name: Build and Push Without Buildx
+        run: |
+          docker build -t us-east1-docker.pkg.dev/ci-cd-pipeline-markkraus/build-and-push-image-markkraus/my-image:latest .
+          docker push us-east1-docker.pkg.dev/ci-cd-pipeline-markkraus/build-and-push-image-markkraus/my-image:latest
