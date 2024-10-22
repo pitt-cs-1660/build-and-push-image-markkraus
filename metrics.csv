@@ -1,0 +1,11 @@
+TimeSeries ID,workload_identity_federation/count.iam.googleapis.com/WorkloadIdentityPoolProvider.ALIGN_RATE.REDUCE_SUM.metric.type="iam.googleapis.com/workload_identity_federation/count" metric.label."result"="success" resource.type="iam.googleapis.com/WorkloadIdentityPoolProvider" .pool_id:github.project_id:ci-cd-pipeline-markkraus
+project_id,ci-cd-pipeline-markkraus
+pool_id,github
+Tue Oct 22 2024 10:50:00 GMT-0400 (Eastern Daylight Time),0.01
+Tue Oct 22 2024 10:55:00 GMT-0400 (Eastern Daylight Time),0.000944404628966038
+Tue Oct 22 2024 11:00:00 GMT-0400 (Eastern Daylight Time),0.011888809257932077
+Tue Oct 22 2024 11:05:00 GMT-0400 (Eastern Daylight Time),0.017166786113101885
+Tue Oct 22 2024 11:25:00 GMT-0400 (Eastern Daylight Time),0.0037776185158641534
+Tue Oct 22 2024 11:30:00 GMT-0400 (Eastern Daylight Time),0.022889048150802515
+Tue Oct 22 2024 11:35:00 GMT-0400 (Eastern Daylight Time),0.013333333333333334
+Tue Oct 22 2024 11:55:00 GMT-0400 (Eastern Daylight Time),0.013333333333333334

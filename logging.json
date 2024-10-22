@@ -1,0 +1,2985 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.projects.create invocation-id/b8f8845f99784ce6beac1541029a043d environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "CreateProject",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus",
+      "request": {
+        "@type": "type.googleapis.com/google.cloudresourcemanager.v1.CreateProjectRequest",
+        "project": {
+          "projectNumber": "892886010280",
+          "createTime": "2024-10-21T16:09:32.716408Z",
+          "projectId": "ci-cd-pipeline-markkraus",
+          "lifecycleState": "ACTIVE",
+          "name": "ci-cd-pipeline-markkraus"
+        }
+      }
+    },
+    "insertId": "-5rehqtd9ope",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-21T16:09:33.421520Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-21T16:09:33.827723219Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.projects.create invocation-id/b8f8845f99784ce6beac1541029a043d environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/892886010280/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/services/cloudapis.googleapis.com"
+    },
+    "insertId": "-tnwzgfd4bw2",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "",
+        "project_id": "ci-cd-pipeline-markkraus",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-10-21T16:09:35.818762Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-892886010280-e13e7dc8-e486-49a2-b3a7-6416b79c8e83",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-21T16:09:37.222702766Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.projects.create invocation-id/b8f8845f99784ce6beac1541029a043d environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/892886010280/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/services/cloudapis.googleapis.com",
+      "request": {
+        "name": "projects/ci-cd-pipeline-markkraus/services/cloudapis.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      }
+    },
+    "insertId": "18p273wdl20z",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-21T16:09:35.818762Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-892886010280-e13e7dc8-e486-49a2-b3a7-6416b79c8e83",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-21T16:09:37.139465575Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.projects.create invocation-id/b8f8845f99784ce6beac1541029a043d environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/892886010280",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/892886010280/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/892886010280/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/892886010280/operations/acat.p2-892886010280-e13e7dc8-e486-49a2-b3a7-6416b79c8e83"
+    },
+    "insertId": "1pnp8qedokjs",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "ci-cd-pipeline-markkraus",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-21T16:09:37.227559Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-21T16:09:38.535201061Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.projects.create invocation-id/b8f8845f99784ce6beac1541029a043d environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/892886010280/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/services/cloudapis.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/ci-cd-pipeline-markkraus/services/cloudapis.googleapis.com"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse",
+        "service": {
+          "parent": "projects/892886010280",
+          "name": "projects/892886010280/services/cloudapis.googleapis.com",
+          "state": "ENABLED",
+          "config": {
+            "title": "Google Cloud APIs",
+            "name": "cloudapis.googleapis.com"
+          }
+        }
+      }
+    },
+    "insertId": "w8puz7e1267y",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-21T16:09:38.715606069Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-892886010280-e13e7dc8-e486-49a2-b3a7-6416b79c8e83",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-21T16:09:38.715606069Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.projects.create invocation-id/b8f8845f99784ce6beac1541029a043d environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/892886010280/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/services/cloudapis.googleapis.com",
+      "request": {
+        "name": "projects/ci-cd-pipeline-markkraus/services/cloudapis.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.api.tenant.apis.shared.activation.CrossLoggingResponse",
+        "status": "ENABLED",
+        "services": [
+          "cloudapis.googleapis.com",
+          "analyticshub.googleapis.com",
+          "bigquery.googleapis.com",
+          "bigqueryconnection.googleapis.com",
+          "bigquerydatapolicy.googleapis.com",
+          "bigquerymigration.googleapis.com",
+          "bigqueryreservation.googleapis.com",
+          "bigquerystorage.googleapis.com",
+          "cloudtrace.googleapis.com",
+          "dataform.googleapis.com",
+          "dataplex.googleapis.com",
+          "datastore.googleapis.com",
+          "logging.googleapis.com",
+          "monitoring.googleapis.com",
+          "servicemanagement.googleapis.com",
+          "serviceusage.googleapis.com",
+          "sql-component.googleapis.com",
+          "storage-api.googleapis.com",
+          "storage-component.googleapis.com",
+          "storage.googleapis.com"
+        ]
+      }
+    },
+    "insertId": "w8puz7e12680",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "ci-cd-pipeline-markkraus",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-21T16:09:38.715606069Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-892886010280-e13e7dc8-e486-49a2-b3a7-6416b79c8e83",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-21T16:09:38.715606069Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.projects.create invocation-id/b8f8845f99784ce6beac1541029a043d environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/892886010280",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/892886010280/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/892886010280/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/892886010280/operations/acat.p2-892886010280-e13e7dc8-e486-49a2-b3a7-6416b79c8e83"
+    },
+    "insertId": "820osfdmi8a",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2024-10-21T16:09:40.724895Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-21T16:09:41.641400594Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 9,
+        "message": "Billing account for project '892886010280' is not found. Billing must be enabled for activation of service(s) 'artifactregistry.googleapis.com' to proceed.\nHelp Token: AaUeqG6IsqUWcK_IHcJtZKIc0JnuFAOUdG2SKro5GoYwkcGFTKBxK_FGU5lS34Pz70z9sohe9n0ISBkYqFAZh9GjPucjE9EUUkt7lVRBd3rfp3UC"
+      },
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.artifacts.repositories.create invocation-id/8003a43579c2415b9958af460ea1c82a environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/892886010280/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/services/artifactregistry.googleapis.com",
+      "request": {
+        "name": "projects/ci-cd-pipeline-markkraus/services/artifactregistry.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      }
+    },
+    "insertId": "1xp0au6dkiwo",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-21T16:22:46.596890Z",
+    "severity": "ERROR",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-21T16:22:46.831665481Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudbilling.googleapis.com",
+      "methodName": "AssignResourceToBillingAccount",
+      "authorizationInfo": [
+        {
+          "resource": "billingAccounts/0102E1-6C77BC-159275",
+          "permission": "billing.resourceAssociations.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus",
+          "permission": "resourcemanager.projects.createBillingAssignment",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "billingAccounts/0102E1-6C77BC-159275",
+          "permission": "billing.resourceAssociations.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus",
+          "permission": "resourcemanager.projects.deleteBillingAssignment",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus",
+      "request": {
+        "@type": "type.googleapis.com/google.internal.cloudbilling.billingaccount.v1.AssignResourceToBillingAccountRequest",
+        "billingAccountName": "billingAccounts/0102E1-6C77BC-159275",
+        "resourceName": "projects/892886010280"
+      }
+    },
+    "insertId": "-j3unc5ddx5s",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-21T16:26:10.978535Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-21T16:26:12.517756915Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.artifacts.repositories.create invocation-id/afe465acb09745bd904be2cdf6c35515 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/892886010280/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/services/artifactregistry.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/ci-cd-pipeline-markkraus/services/artifactregistry.googleapis.com"
+      }
+    },
+    "insertId": "820osfdml4b",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "ci-cd-pipeline-markkraus",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-10-21T16:26:30.780097Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-892886010280-42a38780-6d42-4219-958b-5e2cf4107b19",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-21T16:26:31.441116680Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.artifacts.repositories.create invocation-id/afe465acb09745bd904be2cdf6c35515 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/892886010280",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/892886010280/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/892886010280/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/892886010280/operations/acat.p2-892886010280-42a38780-6d42-4219-958b-5e2cf4107b19"
+    },
+    "insertId": "1acldmudka8c",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "ci-cd-pipeline-markkraus",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-21T16:26:31.675615Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-21T16:26:32.397749013Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.artifacts.repositories.create invocation-id/afe465acb09745bd904be2cdf6c35515 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/892886010280/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/services/artifactregistry.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/ci-cd-pipeline-markkraus/services/artifactregistry.googleapis.com"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse",
+        "service": {
+          "state": "ENABLED",
+          "name": "projects/892886010280/services/artifactregistry.googleapis.com",
+          "config": {
+            "name": "artifactregistry.googleapis.com",
+            "title": "Artifact Registry API"
+          },
+          "parent": "projects/892886010280"
+        }
+      }
+    },
+    "insertId": "ut18acdmaku",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-21T16:26:32.741125332Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-892886010280-42a38780-6d42-4219-958b-5e2cf4107b19",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-21T16:26:32.741125332Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.artifacts.repositories.create invocation-id/afe465acb09745bd904be2cdf6c35515 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/892886010280",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/892886010280/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/892886010280/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/892886010280/operations/acat.p2-892886010280-42a38780-6d42-4219-958b-5e2cf4107b19"
+    },
+    "insertId": "1un7dhkdbl5e",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-21T16:26:34.476335Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-21T16:26:35.535979891Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.artifacts.repositories.create invocation-id/afe465acb09745bd904be2cdf6c35515 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-21T16:26:36.524519790Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus/locations/us-east1",
+          "permission": "artifactregistry.repositories.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/us-east1",
+      "request": {
+        "parent": "projects/ci-cd-pipeline-markkraus/locations/us-east1",
+        "@type": "type.googleapis.com/google.devtools.artifactregistry.v1.CreateRepositoryRequest",
+        "repositoryId": "build-and-push-image-markkraus",
+        "repository": {
+          "name": "projects/ci-cd-pipeline-markkraus/locations/us-east1/repositories/build-and-push-image-markkraus",
+          "format": "DOCKER"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east1"
+        ]
+      }
+    },
+    "insertId": "o670v4d2589",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-21T16:26:36.515641530Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/ci-cd-pipeline-markkraus/locations/us-east1/operations/b55a129c-6e3d-4f07-9ef0-7a09dd3b31d3",
+      "producer": "artifactregistry.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-21T16:26:36.646156634Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "service-agent-manager@system.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/ci-cd-pipeline-markkraus",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/ci-cd-pipeline-markkraus",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/artifactregistry.serviceAgent",
+              "member": "serviceAccount:service-892886010280@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "892886010280",
+        "policy": {
+          "bindings": [
+            {
+              "members": [
+                "user:Markkraus5252@gmail.com"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "role": "roles/artifactregistry.serviceAgent",
+              "members": [
+                "serviceAccountId:115995317694274250674"
+              ]
+            }
+          ],
+          "etag": "BwYk/uDU1yw="
+        }
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "etag": "BwYk/x30s4w=",
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:service-892886010280@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.serviceAgent"
+          },
+          {
+            "members": [
+              "user:Markkraus5252@gmail.com"
+            ],
+            "role": "roles/owner"
+          }
+        ]
+      }
+    },
+    "insertId": "-620sdwe36cb2",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-21T16:26:37.460637Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-21T16:26:38.404519994Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/us-east1/repositories/build-and-push-image-markkraus",
+      "response": {
+        "vulnerabilityScanningConfig": {
+          "lastEnableTime": "2024-10-21T16:26:36.532409325Z"
+        },
+        "mode": "STANDARD_REPOSITORY",
+        "@type": "type.googleapis.com/google.protobuf.Any",
+        "name": "projects/ci-cd-pipeline-markkraus/locations/us-east1/repositories/build-and-push-image-markkraus",
+        "format": "DOCKER",
+        "sbomConfig": {},
+        "description": "Docker Artifact Registry for CI/CD"
+      }
+    },
+    "insertId": "95nwmndfuii",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+        "project_id": "ci-cd-pipeline-markkraus",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-21T16:26:46.595578928Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/ci-cd-pipeline-markkraus/locations/us-east1/operations/b55a129c-6e3d-4f07-9ef0-7a09dd3b31d3",
+      "producer": "artifactregistry.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-21T16:26:46.934433516Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/eef177ae0df240bf86f2d4d3a09b4eb0 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-21T21:33:54.698690442Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global",
+      "request": {
+        "workloadIdentityPoolId": "github-actions-pool",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "parent": "projects/ci-cd-pipeline-markkraus/locations/global",
+        "workloadIdentityPool": {
+          "displayName": "GitHub Actions Pool",
+          "disabled": false
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "n3f6pid4zcm",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-21T21:33:54.690770742Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/892886010280/locations/global/workloadIdentityPools/github-actions-pool/operations/bifqrq4r3o4amehiy7esm00000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-21T21:33:55.423132134Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/892886010280/locations/global/workloadIdentityPools/github-actions-pool/operations/bifqrq4r3o4amehiy7esm00000000000"
+      }
+    },
+    "insertId": "-lasr1ictxu",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-21T21:33:55.345606Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/892886010280/locations/global/workloadIdentityPools/github-actions-pool/operations/bifqrq4r3o4amehiy7esm00000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-21T21:33:56.311238989Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/938fb1ad384a47b7bff0a6de707bdfcb environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-21T21:46:29.576446707Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global",
+      "request": {
+        "workloadIdentityPoolId": "github",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "workloadIdentityPool": {
+          "displayName": "GitHub Actions Pool",
+          "disabled": false
+        },
+        "parent": "projects/ci-cd-pipeline-markkraus/locations/global"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1d59tz5dl6mf",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-21T21:46:29.566222458Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/892886010280/locations/global/workloadIdentityPools/github/operations/bifqrnux3o4ameeq2wbru00000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-21T21:46:30.412148638Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/892886010280/locations/global/workloadIdentityPools/github/operations/bifqrnux3o4ameeq2wbru00000000000"
+      }
+    },
+    "insertId": "-it9ml3d29ca",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-21T21:46:30.055091Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/892886010280/locations/global/workloadIdentityPools/github/operations/bifqrnux3o4ameeq2wbru00000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-21T21:46:30.895390753Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/15b909912ee04a44a2acc4a7139b17dc environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-21T21:51:00.826111665Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "My GitHub repo Provider",
+          "disabled": false,
+          "attributeMapping": {
+            "attribute.repository_owner": "assertion.repository_owner",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository": "assertion.repository",
+            "google.subject": "assertion.sub"
+          },
+          "attributeCondition": "assertion.repository_owner == 'markkraus5252'"
+        },
+        "parent": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+        "workloadIdentityPoolProviderId": "my-repo",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1cvl40odkg8h",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-21T21:51:00.806751044Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/892886010280/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bigarrez3o4amefqst24say000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-21T21:51:01.947641581Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/892886010280/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bigarrez3o4amefqst24say000000000"
+      }
+    },
+    "insertId": "mj9j8ecu34",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-21T21:51:00.961060Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/892886010280/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bigarrez3o4amefqst24say000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-21T21:51:01.025429105Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.iam.workload-identity-pools.providers.delete invocation-id/01c37c06c599447eab1ccf7727da4231 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-21T22:33:13.716244645Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github/providers/my-repo",
+          "permission": "iam.workloadIdentityPoolProviders.delete",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github/providers/my-repo",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.DeleteWorkloadIdentityPoolProviderRequest",
+        "name": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github/providers/my-repo"
+      }
+    },
+    "insertId": "28p0gpdkh4e",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-21T22:33:13.698930507Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/892886010280/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bigarknn3o4amegqxxez6ay000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-21T22:33:14.051563368Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider",
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github/providers/my-repo",
+      "response": {
+        "name": "projects/892886010280/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bigarknn3o4amegqxxez6ay000000000",
+        "@type": "type.googleapis.com/google.longrunning.Operation"
+      }
+    },
+    "insertId": "65euanc43t",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-21T22:33:13.872288Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/892886010280/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bigarknn3o4amegqxxez6ay000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-21T22:33:14.174963718Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 6,
+        "message": "Requested entity already exists"
+      },
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/19528c41811e43b6ba82f40ce7079026 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-21T22:33:20.712693436Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProviderId": "my-repo",
+        "workloadIdentityPoolProvider": {
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "My GitHub repo Provider",
+          "disabled": false,
+          "attributeCondition": "assertion.repository_owner == 'markkraus'",
+          "attributeMapping": {
+            "attribute.repository_owner": "assertion.repository_owner",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository": "assertion.repository",
+            "google.subject": "assertion.sub"
+          }
+        },
+        "parent": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1fxei93dig4u",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-21T22:33:20.696715616Z",
+    "severity": "ERROR",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-21T22:33:21.465886511Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 6,
+        "message": "Requested entity already exists"
+      },
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/9b239de1750e4bbe8bf44bfe6aaadffb environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-21T22:35:36.782239057Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+      "request": {
+        "parent": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+        "workloadIdentityPoolProvider": {
+          "disabled": false,
+          "attributeCondition": "assertion.repository_owner == 'markkraus'",
+          "attributeMapping": {
+            "attribute.actor": "assertion.actor",
+            "attribute.repository": "assertion.repository",
+            "google.subject": "assertion.sub",
+            "attribute.repository_owner": "assertion.repository_owner"
+          },
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "My GitHub repo Provider"
+        },
+        "workloadIdentityPoolProviderId": "my-repo",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1pmjgsfdk3or",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-10-21T22:35:36.764702489Z",
+    "severity": "ERROR",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-21T22:35:37.875840717Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 6,
+        "message": "Requested entity already exists"
+      },
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/01b7bedf41b945b881316d46086692fe environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-21T22:58:54.882076163Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+      "request": {
+        "parent": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+        "workloadIdentityPoolProvider": {
+          "disabled": false,
+          "displayName": "My GitHub repo Provider",
+          "attributeCondition": "assertion.repository_owner == 'markkraus'",
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeMapping": {
+            "attribute.repository_owner": "assertion.repository_owner",
+            "google.subject": "assertion.sub",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository": "assertion.repository"
+          }
+        },
+        "workloadIdentityPoolProviderId": "my-repo",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "g3zqx4dkk36",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-21T22:58:54.864985023Z",
+    "severity": "ERROR",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-21T22:58:55.216506799Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/42842e289d014c2e935546a0ab09acae environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-21T23:00:04.680464740Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "parent": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+        "workloadIdentityPoolProviderId": "github-provider",
+        "workloadIdentityPoolProvider": {
+          "attributeMapping": {
+            "google.subject": "assertion.sub",
+            "attribute.repository": "assertion.repository",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository_owner": "assertion.repository_owner"
+          },
+          "disabled": false,
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "GitHub Provider",
+          "attributeCondition": "assertion.repository_owner == 'markkraus'"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1otxg8dlz3l",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "ci-cd-pipeline-markkraus",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-10-21T23:00:04.661252742Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/892886010280/locations/global/workloadIdentityPools/github/providers/github-provider/operations/bigar5fz3o4amehywwazmay000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-21T23:00:05.064126471Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/892886010280/locations/global/workloadIdentityPools/github/providers/github-provider/operations/bigar5fz3o4amehywwazmay000000000"
+      }
+    },
+    "insertId": "o5p4e5ctz0",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-21T23:00:04.852285Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/892886010280/locations/global/workloadIdentityPools/github/providers/github-provider/operations/bigar5fz3o4amehywwazmay000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-21T23:00:05.397758652Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.iam.workload-identity-pools.providers.delete invocation-id/cf35115a2de94cf2ac2c6fd74b7ffc9f environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-22T14:39:23.716500666Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github/providers/github-provider",
+          "permission": "iam.workloadIdentityPoolProviders.delete",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github/providers/github-provider",
+      "request": {
+        "name": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github/providers/github-provider",
+        "@type": "type.googleapis.com/google.iam.v1.DeleteWorkloadIdentityPoolProviderRequest"
+      }
+    },
+    "insertId": "1fxei93dlwk0",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus",
+        "method": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-22T14:39:23.697397083Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/892886010280/locations/global/workloadIdentityPools/github/providers/github-provider/operations/bigarg7s324ameeyvgknuay000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-22T14:39:24.821536892Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider",
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github/providers/github-provider",
+      "response": {
+        "name": "projects/892886010280/locations/global/workloadIdentityPools/github/providers/github-provider/operations/bigarg7s324ameeyvgknuay000000000",
+        "@type": "type.googleapis.com/google.longrunning.Operation"
+      }
+    },
+    "insertId": "-v0icdgbix",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-22T14:39:23.995543Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/892886010280/locations/global/workloadIdentityPools/github/providers/github-provider/operations/bigarg7s324ameeyvgknuay000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-22T14:39:24.862747951Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 5,
+        "message": "Requested entity was not found."
+      },
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.iam.workload-identity-pools.providers.delete invocation-id/fb3e9d6c4e4f445e9eb6b9215eb9b261 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-22T14:41:44.220649488Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github/providers/my-repo",
+          "permission": "iam.workloadIdentityPoolProviders.delete",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github/providers/my-repo",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.DeleteWorkloadIdentityPoolProviderRequest",
+        "name": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github/providers/my-repo"
+      }
+    },
+    "insertId": "q45q0jdnxtj",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-22T14:41:44.198574131Z",
+    "severity": "ERROR",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-22T14:41:45.576722200Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 6,
+        "message": "Requested entity already exists"
+      },
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/02e4cf1f6b6c4dec9959820bd86fb4f0 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-22T14:43:53.719622734Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "parent": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+        "workloadIdentityPoolProvider": {
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "disabled": false,
+          "displayName": "My GitHub repo Provider",
+          "attributeMapping": {
+            "attribute.repository_owner": "assertion.repository_owner",
+            "google.subject": "assertion.sub",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository": "assertion.repository"
+          },
+          "attributeCondition": "assertion.repository_owner == 'pitt-cs-1660'"
+        },
+        "workloadIdentityPoolProviderId": "my-repo"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "n3f6pid8nn0",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-22T14:43:53.701567460Z",
+    "severity": "ERROR",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-22T14:43:54.767663901Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/6f8395e51b2c49b38137eab921ad1298 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-22T14:44:53.413676758Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+      "request": {
+        "workloadIdentityPoolProviderId": "my-new-repo",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProvider": {
+          "attributeMapping": {
+            "attribute.actor": "assertion.actor",
+            "google.subject": "assertion.sub",
+            "attribute.repository_owner": "assertion.repository_owner",
+            "attribute.repository": "assertion.repository"
+          },
+          "disabled": false,
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "My New GitHub Repo Provider",
+          "attributeCondition": "assertion.repository_owner == 'pitt-cs-1660'"
+        },
+        "parent": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "g3zqx4doaps",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "ci-cd-pipeline-markkraus",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-22T14:44:53.397121489Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/892886010280/locations/global/workloadIdentityPools/github/providers/my-new-repo/operations/bigarzpu324ameeqv667iaq000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-22T14:44:54.123983925Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/892886010280/locations/global/workloadIdentityPools/github/providers/my-new-repo/operations/bigarzpu324ameeqv667iaq000000000"
+      }
+    },
+    "insertId": "3cpba7c4j6",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-22T14:44:53.782047Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/892886010280/locations/global/workloadIdentityPools/github/providers/my-new-repo/operations/bigarzpu324ameeqv667iaq000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-22T14:44:53.971158720Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.iam.service-accounts.create invocation-id/df6f75b1b39d483590ec5ef794696396 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-22T14:54:10.074501759Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.admin.v1.CreateServiceAccount",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus",
+          "permission": "iam.serviceAccounts.create",
+          "granted": true,
+          "resourceAttributes": {
+            "type": "iam.googleapis.com/ServiceAccount"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus",
+      "request": {
+        "name": "projects/ci-cd-pipeline-markkraus",
+        "@type": "type.googleapis.com/google.iam.admin.v1.CreateServiceAccountRequest",
+        "account_id": "my-service-account",
+        "service_account": {
+          "display_name": "My Service Account",
+          "description": "Service account for pushing Docker images"
+        }
+      },
+      "response": {
+        "description": "Service account for pushing Docker images",
+        "@type": "type.googleapis.com/google.iam.admin.v1.ServiceAccount",
+        "name": "projects/ci-cd-pipeline-markkraus/serviceAccounts/my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com",
+        "oauth2_client_id": "109235702298790768620",
+        "unique_id": "109235702298790768620",
+        "etag": "MDEwMjE5MjA=",
+        "display_name": "My Service Account",
+        "email": "my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "insertId": "1jisaf2e8gya8",
+    "resource": {
+      "type": "service_account",
+      "labels": {
+        "unique_id": "109235702298790768620",
+        "email_id": "my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-22T14:54:10.053901159Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-22T14:54:10.665835804Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.projects.add-iam-policy-binding invocation-id/a54b139307d34fed83cf4722268f4829 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/ci-cd-pipeline-markkraus",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/ci-cd-pipeline-markkraus",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/artifactregistry.writer",
+              "member": "serviceAccount:my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "policy": {
+          "etag": "BwYk/x30s4w=",
+          "bindings": [
+            {
+              "members": [
+                "serviceAccount:service-892886010280@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+              ],
+              "role": "roles/artifactregistry.serviceAgent"
+            },
+            {
+              "members": [
+                "user:Markkraus5252@gmail.com"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "members": [
+                "serviceAccount:my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com"
+              ],
+              "role": "roles/artifactregistry.writer"
+            }
+          ]
+        },
+        "resource": "ci-cd-pipeline-markkraus",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "etag": "BwYlEfHERJY=",
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:service-892886010280@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.serviceAgent"
+          },
+          {
+            "members": [
+              "serviceAccount:my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.writer"
+          },
+          {
+            "members": [
+              "user:Markkraus5252@gmail.com"
+            ],
+            "role": "roles/owner"
+          }
+        ]
+      }
+    },
+    "insertId": "-ynuk0ae303z8",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-22T14:54:20.387613Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-22T14:54:22.019682792Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.services.enable invocation-id/327d6c754a3244ab88c082e05661c081 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/892886010280/services/iamcredentials.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/iamcredentials.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/services/iamcredentials.googleapis.com",
+      "request": {
+        "name": "projects/ci-cd-pipeline-markkraus/services/iamcredentials.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      }
+    },
+    "insertId": "f9u19hdumof",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-22T14:57:52.199274Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-892886010280-0da45768-34cf-45c7-a565-fb64a1119048",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-22T14:57:53.155593264Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.services.enable invocation-id/327d6c754a3244ab88c082e05661c081 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/892886010280",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/892886010280/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/892886010280/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/892886010280/operations/acat.p2-892886010280-0da45768-34cf-45c7-a565-fb64a1119048"
+    },
+    "insertId": "1xp0au6dptir",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus",
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-22T14:57:52.919506Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-22T14:57:53.244582150Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.services.enable invocation-id/327d6c754a3244ab88c082e05661c081 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/892886010280/services/iamcredentials.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/iamcredentials.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/services/iamcredentials.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/ci-cd-pipeline-markkraus/services/iamcredentials.googleapis.com"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse",
+        "service": {
+          "state": "ENABLED",
+          "name": "projects/892886010280/services/iamcredentials.googleapis.com",
+          "parent": "projects/892886010280",
+          "config": {
+            "title": "IAM Service Account Credentials API",
+            "name": "iamcredentials.googleapis.com"
+          }
+        }
+      }
+    },
+    "insertId": "k0u7ogdisni",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-22T14:57:54.556696437Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-892886010280-0da45768-34cf-45c7-a565-fb64a1119048",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-22T14:57:54.556696437Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.services.enable invocation-id/327d6c754a3244ab88c082e05661c081 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/892886010280",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/892886010280/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/892886010280/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/892886010280/operations/acat.p2-892886010280-0da45768-34cf-45c7-a565-fb64a1119048"
+    },
+    "insertId": "h8lecvdu9qf",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "ci-cd-pipeline-markkraus",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-22T14:57:55.408238Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-22T14:57:56.292405551Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.projects.add-iam-policy-binding invocation-id/84e07b50a8ec418d85b1e58c908ae6b2 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/ci-cd-pipeline-markkraus",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/ci-cd-pipeline-markkraus",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/iam.serviceAccountTokenCreator",
+              "member": "serviceAccount:my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "ci-cd-pipeline-markkraus",
+        "policy": {
+          "etag": "BwYlEfHERJY=",
+          "bindings": [
+            {
+              "role": "roles/artifactregistry.serviceAgent",
+              "members": [
+                "serviceAccount:service-892886010280@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+              ]
+            },
+            {
+              "members": [
+                "serviceAccount:my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com"
+              ],
+              "role": "roles/artifactregistry.writer"
+            },
+            {
+              "members": [
+                "user:Markkraus5252@gmail.com"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "members": [
+                "serviceAccount:my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com"
+              ],
+              "role": "roles/iam.serviceAccountTokenCreator"
+            }
+          ]
+        }
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:service-892886010280@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.serviceAgent"
+          },
+          {
+            "members": [
+              "serviceAccount:my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.writer"
+          },
+          {
+            "members": [
+              "serviceAccount:my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com"
+            ],
+            "role": "roles/iam.serviceAccountTokenCreator"
+          },
+          {
+            "members": [
+              "user:Markkraus5252@gmail.com"
+            ],
+            "role": "roles/owner"
+          }
+        ],
+        "etag": "BwYlEgxiLKI="
+      }
+    },
+    "insertId": "-620sdwe425ts",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-22T15:01:47.082735Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-22T15:01:48.647974928Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.projects.add-iam-policy-binding invocation-id/8c023678214b48b39c0bf39aced1a798 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/ci-cd-pipeline-markkraus",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/ci-cd-pipeline-markkraus",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {}
+      },
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "policy": {
+          "bindings": [
+            {
+              "members": [
+                "serviceAccount:service-892886010280@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+              ],
+              "role": "roles/artifactregistry.serviceAgent"
+            },
+            {
+              "members": [
+                "serviceAccount:my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com"
+              ],
+              "role": "roles/artifactregistry.writer"
+            },
+            {
+              "members": [
+                "serviceAccount:my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com"
+              ],
+              "role": "roles/iam.serviceAccountTokenCreator"
+            },
+            {
+              "members": [
+                "user:Markkraus5252@gmail.com"
+              ],
+              "role": "roles/owner"
+            }
+          ],
+          "etag": "BwYlEgxiLKI="
+        },
+        "resource": "ci-cd-pipeline-markkraus"
+      },
+      "response": {
+        "etag": "BwYlEhfkdgQ=",
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:service-892886010280@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.serviceAgent"
+          },
+          {
+            "members": [
+              "serviceAccount:my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.writer"
+          },
+          {
+            "members": [
+              "serviceAccount:my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com"
+            ],
+            "role": "roles/iam.serviceAccountTokenCreator"
+          },
+          {
+            "role": "roles/owner",
+            "members": [
+              "user:Markkraus5252@gmail.com"
+            ]
+          }
+        ]
+      }
+    },
+    "insertId": "-g1surve63tbe",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-22T15:05:00.229011Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-22T15:05:00.790660489Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.projects.add-iam-policy-binding invocation-id/7515db752a9d496eaa32ce643f0f9357 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/ci-cd-pipeline-markkraus",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/ci-cd-pipeline-markkraus",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {}
+      },
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "ci-cd-pipeline-markkraus",
+        "policy": {
+          "bindings": [
+            {
+              "role": "roles/artifactregistry.serviceAgent",
+              "members": [
+                "serviceAccount:service-892886010280@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+              ]
+            },
+            {
+              "members": [
+                "serviceAccount:my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com"
+              ],
+              "role": "roles/artifactregistry.writer"
+            },
+            {
+              "role": "roles/iam.serviceAccountTokenCreator",
+              "members": [
+                "serviceAccount:my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com"
+              ]
+            },
+            {
+              "role": "roles/owner",
+              "members": [
+                "user:Markkraus5252@gmail.com"
+              ]
+            }
+          ],
+          "etag": "BwYlEhfkdgQ="
+        }
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:service-892886010280@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.serviceAgent"
+          },
+          {
+            "members": [
+              "serviceAccount:my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.writer"
+          },
+          {
+            "members": [
+              "serviceAccount:my-service-account@ci-cd-pipeline-markkraus.iam.gserviceaccount.com"
+            ],
+            "role": "roles/iam.serviceAccountTokenCreator"
+          },
+          {
+            "members": [
+              "user:Markkraus5252@gmail.com"
+            ],
+            "role": "roles/owner"
+          }
+        ],
+        "etag": "BwYlEhjLa7I="
+      }
+    },
+    "insertId": "-x0dicme61avm",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-22T15:05:15.337998Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-22T15:05:16.686013366Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 5,
+        "message": "Requested entity was not found."
+      },
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.iam.workload-identity-pools.providers.delete invocation-id/3d90f937a2c2451ba2a5a997d994682a environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-22T15:18:49.404874690Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github/providers/github-provider",
+          "permission": "iam.workloadIdentityPoolProviders.delete",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github/providers/github-provider",
+      "request": {
+        "name": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github/providers/github-provider",
+        "@type": "type.googleapis.com/google.iam.v1.DeleteWorkloadIdentityPoolProviderRequest"
+      }
+    },
+    "insertId": "g3zqx4dohkp",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com",
+        "project_id": "ci-cd-pipeline-markkraus"
+      }
+    },
+    "timestamp": "2024-10-22T15:18:49.386934970Z",
+    "severity": "ERROR",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-22T15:18:50.271871373Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 6,
+        "message": "Requested entity already exists"
+      },
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/b445da68c1434534bd5e5214e53fe730 environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-22T15:19:00.462502766Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+      "request": {
+        "parent": "projects/ci-cd-pipeline-markkraus/locations/global/workloadIdentityPools/github",
+        "workloadIdentityPoolProvider": {
+          "attributeMapping": {
+            "attribute.repository": "assertion.repository",
+            "google.subject": "assertion.sub",
+            "attribute.repository_owner": "assertion.repository_owner",
+            "attribute.actor": "assertion.actor"
+          },
+          "attributeCondition": "assertion.repository_owner == 'pitt-cs-1660'",
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "GitHub Provider",
+          "disabled": false
+        },
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProviderId": "github-provider"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1otxg8dpase",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "ci-cd-pipeline-markkraus",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-10-22T15:19:00.444782237Z",
+    "severity": "ERROR",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-22T15:19:01.371487028Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "Markkraus5252@gmail.com",
+        "principalSubject": "user:Markkraus5252@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "72.95.246.114",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/497.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/f481e15449734b4b804b65b406360dca environment/None environment-version/None client-os/MACOSX client-os-ver/22.6.0 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.6 term/xterm-256color (Macintosh; Intel Mac OS X 22.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-22T15:30:56.565927488Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/ci-cd-pipeline-markkraus/locations/us-east1/repositories/build-and-push-image-markkraus",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/ci-cd-pipeline-markkraus/locations/us-east1/repositories/build-and-push-image-markkraus",
+      "request": {
+        "resource": "projects/ci-cd-pipeline-markkraus/locations/us-east1/repositories/build-and-push-image-markkraus",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1ywuptc3i2",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "ci-cd-pipeline-markkraus",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-22T15:30:56.557224482Z",
+    "severity": "NOTICE",
+    "logName": "projects/ci-cd-pipeline-markkraus/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-22T15:30:57.386192062Z"
+  }
+]
